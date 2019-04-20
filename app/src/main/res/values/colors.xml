@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fab05b</color>
+    <color name="colorPrimaryDark">#bebebe</color>
+    <color name="colorAccent">#25961d</color>
+
+    <color name="textColor">#712e02</color>
+    <color name="statusBarColor">#682a02</color>
+    <color name="underline">#ffffff</color>
+    <color name="grey">#717171</color>
+    <color name="edittextline">#595959</color>
+    <color name="light_gray">#7E7E7E</color>
+    <color name="gray_home">#EBE9EA</color>
+    <color name="black">#000000</color>
+    <color name="red">#CA0A0A</color>
+    <color name="green">#6EAF08</color>
+    <color name="baseReleaseColor">#212121</color>
+    <color name="basePressColor">#FAFAFA</color>
+    <color name="ballReleaseColor">#9E9E9E</color>
+</resources>

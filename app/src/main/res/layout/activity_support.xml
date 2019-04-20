@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Support">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_support"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="@dimen/_20sdp">
+
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:visibility="gone"
+        android:layout_below="@+id/toolbar_support"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|top"
+        android:src="@drawable/logo"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_70sdp" />
+    <LinearLayout
+        android:textSize="@dimen/_15sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:gravity="center|start"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:background="@drawable/round_line"
+        android:id="@+id/support_email"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/email"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp" />
+        <TextView
+            android:padding="@dimen/_5sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/support_gmail_com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/support_email"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_15sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:gravity="center|start"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/round_line"
+        android:id="@+id/support_no"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_call"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp" />
+        <TextView
+            android:padding="@dimen/_5sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="+91 8377-830-830"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>

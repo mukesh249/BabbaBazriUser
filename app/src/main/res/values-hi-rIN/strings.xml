@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">बब्बाबज़री</string>
+    <string name="my_order_list">मेरी ऑर्डर सूची</string>
+    <string name="refer">साझा करें</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="support">सहायता</string>
+    <string name="about">हमारे बारे में</string>
+    <string name="logout">बाहर निकलें</string>
+    <string name="save">सुरक्षित करें</string>
+    <string name="notification">नोटफ़केशन</string>
+    <string name="mobile_no">मोबाइल नंबर दर्ज करें</string>
+    <string name="password">पासवर्ड</string>
+    <string name="forgot_password">पासवर्ड भूल गए</string>
+    <string name="login">प्रवेश करें</string>
+    <string name="sign_up">नया जोड़ें</string>
+    <string name="notempty">खाली नहीं हो सकता</string>
+    <string name="mobile_no_not_valid">मोबाइल नंबर मान्य नहीं है</string>
+    <string name="password_validation">पासवर्ड में 6 वर्ण होना चाहिए</string>
+
+</resources>

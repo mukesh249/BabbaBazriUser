@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SelectLanguage">
+    <TextView
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/select_lang_text"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/select_lang_tv"
+        android:textSize="@dimen/_14sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/box_1"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200sp">
+        <TextView
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:id="@+id/english_tv_select_lang"
+            android:elevation="@dimen/_4sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/english"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:background="@drawable/login_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/hindi_tv_select_lang"
+            android:textColor="@color/white"
+            android:elevation="@dimen/_4sdp"
+            android:text="@string/hindi"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/login_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

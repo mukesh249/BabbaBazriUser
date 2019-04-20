@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/book_ride"
+            android:title="@string/book_your_order"
+            android:icon="@drawable/book_ride"/>
+        <item
+            android:id="@+id/my_order_list"
+            android:title="@string/my_order_list"
+            android:icon="@drawable/order_list"/>
+        <item
+            android:id="@+id/refer_earn"
+            android:title="@string/refer"
+            android:icon="@drawable/refer"/>
+        <item
+            android:visible="false"
+            android:id="@+id/emergencycont"
+            android:title="@string/emergency_contacts"
+            android:icon="@drawable/contacts"/>
+        <item
+            android:id="@+id/support"
+            android:title="@string/support"
+            android:icon="@drawable/supports"/>
+        <item
+            android:id="@+id/about"
+            android:title="@string/about"
+            android:icon="@drawable/about"/>
+        <item
+            android:visible="false"
+            android:id="@+id/language"
+            android:title="@string/language"
+            android:icon="@drawable/language"/>
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout"
+            android:icon="@drawable/logout"/>
+
+    </group>
+
+</menu>

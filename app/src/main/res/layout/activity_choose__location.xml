@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Choose_Location">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_choose_l"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+           android:layout_alignParentLeft="true"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/your_current_location_is"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:id="@+id/currentlocation_refressh"
+            android:layout_alignParentRight="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_refresh" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/nearby_lin"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/current_location_rel"
+            android:background="@drawable/linewithconner"
+            android:elevation="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:id="@+id/ic_location"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_location"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:scrollHorizontally="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:gravity="center|start"
+                android:singleLine="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/ic_location"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/textColor"
+                android:id="@+id/current_location_tv"
+                android:layout_centerVertical="true"
+                android:hint="@string/current_location"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="@string/drop_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/searchbar_rel"
+            android:background="@drawable/linewithconner"
+            android:elevation="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp">
+            <ImageView
+                android:layout_width="@dimen/_13sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:id="@+id/ic_magnify"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_magnify"
+                android:contentDescription="@string/todo" />
+            <AutoCompleteTextView
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/ic_magnify"
+                android:background="@null"
+                android:singleLine="true"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/textColor"
+                android:id="@+id/input_search_ch"
+                android:layout_centerVertical="true"
+                android:hint="@string/enter_address_city_and_zip_code"
+                android:imeOptions="actionSearch"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

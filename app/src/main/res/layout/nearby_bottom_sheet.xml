@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:paddingStart="@dimen/_5sdp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/i1"
+            android:src="@drawable/logo"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/textColor"
+            android:text="Type: "
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp" />
+        <TextView
+            android:layout_toEndOf="@+id/i1"
+            android:id="@+id/i2"
+            android:layout_centerVertical="true"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_6sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_17sdp"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/price_chart_booknow"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_6sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/price_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:text="@string/order_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="0.6"
+            android:paddingStart="@dimen/_5sdp"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/product_name_bs"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:text="@string/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/textColor"
+                android:text="Ultra tech Cement"
+                android:id="@+id/type_bs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.4"
+            android:paddingStart="@dimen/_5sdp"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:text="@string/unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/textColor"
+                android:text="Bags"
+                android:id="@+id/unit_bs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="0.6"
+            android:paddingStart="@dimen/_5sdp"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:text="@string/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/textColor"
+                android:text="10"
+                android:id="@+id/quantity_bs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.4"
+            android:paddingStart="@dimen/_5sdp"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:text="@string/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/textColor"
+                android:text="10"
+                android:id="@+id/price_bs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="end|center"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@color/underline"
+            android:id="@+id/btn_cancel"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_35sdp" />
+        <Button
+            android:background="@drawable/booknow_btn"
+            android:paddingStart="@dimen/_13sdp"
+            android:paddingEnd="@dimen/_13sdp"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:text="@string/book_now"
+            android:id="@+id/btn_booknow"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_35sdp" />
+    </LinearLayout>
+</LinearLayout>

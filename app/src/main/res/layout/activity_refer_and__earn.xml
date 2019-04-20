@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    tools:context=".Activities.Refer_and_Earn">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_refer"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:background="@color/underline"
+        app:layout_collapseMode="pin">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:background="@color/underline"
+        android:padding="@dimen/_10sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/refer_earn_title"
+            android:textColor="#0ec3f1"
+            android:textSize="@dimen/_25sdp"
+            android:text="@string/invite_earn"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/refer_earn_des"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/refer_earn_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/refer_earn_des_2"
+            android:textSize="@dimen/_14sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:src="@drawable/image"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_90sdp" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/refer_code"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:gravity="center"
+            android:background="@drawable/refer_btn"
+            android:padding="@dimen/_8sdp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="Referal Code: 25nuUI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/whatapp_refer"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:src="@drawable/whatapp"
+                android:scaleType="fitXY"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp" />
+            <ImageView
+                android:id="@+id/facebook_refer"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:src="@drawable/facebook"
+                android:scaleType="fitXY"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp" />
+            <ImageView
+                android:id="@+id/g_plus_refer"
+                android:src="@drawable/g_plus"
+                android:scaleType="fitXY"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/share_link_tv"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:text="@string/share_the_link"
+        android:background="@color/textColor"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_12sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:paddingStart="@dimen/_30sdp"
+        android:paddingEnd="@dimen/_30sdp"
+        android:textColor="@color/underline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

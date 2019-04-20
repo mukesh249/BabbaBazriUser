@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_emergency"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/logo"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_below="@+id/support_email"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_15sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:gravity="center|start"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/round_line"
+        android:id="@+id/call"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_call"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp" />
+        <TextView
+            android:padding="@dimen/_5sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="+91 8377-830-830"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:text=" Ok "
+
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        />
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/cancel"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_icon"
+        android:layout_marginRight="@dimen/_5sdp"
+        />
+
+</RelativeLayout>

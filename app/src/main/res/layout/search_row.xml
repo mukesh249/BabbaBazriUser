@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/autocomplete_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_centerVertical="true"
+    android:gravity="center_vertical">
+    
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:id="@+id/image_search"
+        android:src="@drawable/ic_location"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+    <TextView
+        android:id="@+id/address_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_toRightOf="@+id/image_search"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:layout_below="@+id/address_1"
+        android:id="@+id/address_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_toRightOf="@+id/image_search"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

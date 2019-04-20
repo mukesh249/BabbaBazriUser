@@ -1,0 +1,215 @@
+{
+  "project_info": {
+    "project_number": "421954654079",
+    "firebase_url": "https://babbabazri-72e67.firebaseio.com",
+    "project_id": "babbabazri-72e67",
+    "storage_bucket": "babbabazri-72e67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421954654079:android:ae0edf923171ef83",
+        "android_client_info": {
+          "package_name": "bababazrii.com.bababazri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421954654079-g5f8llvgajqkanv2do7q4j5knhtskb8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bababazrii.com.bababazri",
+            "certificate_hash": "2c8d0822274ea82fbf62ffdf274d88763f750731"
+          }
+        },
+        {
+          "client_id": "421954654079-ifin47im4og0kp7n57fsh6t1h9hr0611.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7tIYFdkzHflflwJOdiX8LUrPSILU_-T4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421954654079-ifin47im4og0kp7n57fsh6t1h9hr0611.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "421954654079-9agh4573d8ukv8mt5t9c3kfgl9c3rhi1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "adv.babbaBajri"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421954654079:android:2d0dee6218d3b1d8",
+        "android_client_info": {
+          "package_name": "babbabazrii.com.bababazri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421954654079-p36kp0f2a4g79ea6ie3lf4ssjku4qdhq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "babbabazrii.com.bababazri",
+            "certificate_hash": "2c8d0822274ea82fbf62ffdf274d88763f750731"
+          }
+        },
+        {
+          "client_id": "421954654079-ifin47im4og0kp7n57fsh6t1h9hr0611.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7tIYFdkzHflflwJOdiX8LUrPSILU_-T4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421954654079-ifin47im4og0kp7n57fsh6t1h9hr0611.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "421954654079-9agh4573d8ukv8mt5t9c3kfgl9c3rhi1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "adv.babbaBajri"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421954654079:android:719264498b539948",
+        "android_client_info": {
+          "package_name": "com.bababazri.advosoft.bababajriMTD"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421954654079-o2frah2hlb3a6nts6u8agmpuqpk0nsl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bababazri.advosoft.bababajriMTD",
+            "certificate_hash": "a3edeeefe09626d4c0772175d4c26bcf57708f65"
+          }
+        },
+        {
+          "client_id": "421954654079-ifin47im4og0kp7n57fsh6t1h9hr0611.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7tIYFdkzHflflwJOdiX8LUrPSILU_-T4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421954654079-ifin47im4og0kp7n57fsh6t1h9hr0611.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "421954654079-9agh4573d8ukv8mt5t9c3kfgl9c3rhi1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "adv.babbaBajri"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421954654079:android:6eff1316b1dcf88a",
+        "android_client_info": {
+          "package_name": "com.bababazri.advosoft.bababajriMTDNew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421954654079-190oqfcn6c9nv406fot3jmc09qu8q8i3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bababazri.advosoft.bababajriMTDNew",
+            "certificate_hash": "a3edeeefe09626d4c0772175d4c26bcf57708f65"
+          }
+        },
+        {
+          "client_id": "421954654079-ifin47im4og0kp7n57fsh6t1h9hr0611.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7tIYFdkzHflflwJOdiX8LUrPSILU_-T4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421954654079-ifin47im4og0kp7n57fsh6t1h9hr0611.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "421954654079-9agh4573d8ukv8mt5t9c3kfgl9c3rhi1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "adv.babbaBajri"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

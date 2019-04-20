@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View  android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_below="@+id/button_menu"/>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/icon_d"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/notification_orange"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/icon_d"
+            android:text="sadfsadfsafs"
+            android:textColor="#2b2d5b"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:id="@+id/date_noti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_below="@+id/date_noti"
+            android:layout_toEndOf="@+id/icon_d"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Gray Stone"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/material_name_notification"/>
+            <TextView
+                android:textSize="@dimen/_10sdp"
+                android:text="Your order message notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_notification"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View  android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_below="@+id/button_menu"/>
+</android.support.v7.widget.CardView>

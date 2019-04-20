@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/book_v"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:src="@drawable/book"
+        android:rotation="8" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/rlv2"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="10dp"
+        android:layout_height="60dp"
+        android:src="@drawable/line" />
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_below="@+id/book_v"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/truck_map"
+        android:id="@+id/veh_img"
+        android:layout_width="20dp"
+        android:layout_height="@dimen/_28sdp" />
+
+</RelativeLayout>

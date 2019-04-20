@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activities.Login">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+    <!--<include layout="@layout/netlayout"/>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:transitionName="logoTransition"
+                android:id="@+id/logo_login"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:background="@drawable/logo"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/token"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/token"
+                android:textSize="@dimen/_15sdp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:transitionName="firsetTransition"
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:id="@+id/et_first_name_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/underline"
+                    android:gravity="start"
+                    android:hint="@string/first_name"
+                    android:inputType="text"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+
+                <EditText
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:id="@+id/et_last_name_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/underline"
+                    android:gravity="start"
+                    android:hint="@string/last_name"
+                    android:inputType="text"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+                <EditText
+                    android:maxLength="10"
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:id="@+id/et_mobileno_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/underline"
+                    android:gravity="start"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+
+                <AutoCompleteTextView
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:id="@+id/et_address_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/underline"
+                    android:gravity="start"
+                    android:hint="@string/address"
+                    android:inputType="text"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+                <EditText
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:id="@+id/et_password_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/underline"
+                    android:gravity="start"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+                <EditText
+                    android:paddingLeft="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:id="@+id/et_confirm_pass_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/underline"
+                    android:gravity="start"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/textColor"
+                    android:textColorHint="@color/textColor" />
+
+
+                <Button
+                    android:transitionName="btnTransition"
+                    android:layout_marginTop="@dimen/_40sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/signup_submit_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_button"
+                    android:text="@string/submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/underline"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

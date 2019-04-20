@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/background"
+    android:layout_height="fill_parent"
+    tools:context=".Activities.Verify_MobileNo">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_Verifiy_Mobile_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/verification_code"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.chaos.view.PinView
+            android:layout_gravity="center"
+            android:hint="1234"
+            android:inputType="number"
+            android:id="@+id/opt_verifiyMobileno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/PinWidget.PinView" />
+        <Button
+            android:layout_marginTop="@dimen/_50sdp"
+            android:background="@drawable/login_button"
+            android:textColor="@color/underline"
+            android:id="@+id/resend_verifiyMobileno"
+            android:gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:text="@string/resend"
+            android:textSize="@dimen/_12sdp"
+            android:layout_gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/verify"
+            android:textColor="@color/underline"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/login_button"
+            android:id="@+id/verifiy_btn_verifiyMobileno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/linewithconner"
+            android:textColor="@color/underline"
+            android:id="@+id/resend_tv"
+            android:gravity="end"
+            android:padding="@dimen/_2sdp"
+            android:text="Resend"
+            android:textSize="@dimen/_12sdp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="bottom"
+            android:padding="@dimen/_15sdp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+</LinearLayout>

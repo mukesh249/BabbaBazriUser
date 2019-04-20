@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bac"
+    android:id="@+id/root_layout_demo"
+    android:padding="@dimen/_15sdp"
+    tools:context=".Activities.Demo_login">
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M U K K U"
+        android:textSize="@dimen/_28sdp" />
+    <TextView
+        android:textColor="#0a89bf"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to on Our App"
+        android:textSize="@dimen/_12sdp" />
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:background="@drawable/btn_request"
+            android:id="@+id/demo_signin_btn"
+            android:text="SignIn"
+            android:textColor="@color/underline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/btn_price"
+            android:id="@+id/demo_signup_btn"
+            android:text="SignUp"
+            android:textColor="@color/underline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

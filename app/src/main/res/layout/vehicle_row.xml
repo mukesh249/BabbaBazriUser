@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_85sdp"
+    android:paddingStart="@dimen/_5sdp"
+    android:id="@+id/vehicle_item"
+    android:paddingEnd="@dimen/_5sdp"
+    android:gravity="center"
+    android:background="@color/underline"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:id="@+id/tractor_lin"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:elevation="@dimen/_5sdp"
+            android:background="@drawable/circle_with_border"
+            android:layout_gravity="center"
+            android:id="@+id/vehicle_list_image"
+            android:layout_width="@dimen/_31sdp"
+            android:layout_height="@dimen/_31sdp"
+            android:src="@drawable/tractor"/>
+        <TextView
+            android:textSize="@dimen/_9sdp"
+            android:layout_gravity="center"
+            android:id="@+id/vehicle_list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tractor"/>
+        <TextView
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/vehicle_list_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id"/>
+
+    </LinearLayout>
+
+</LinearLayout>

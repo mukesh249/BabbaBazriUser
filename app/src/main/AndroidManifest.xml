@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="babbabazrii.com.bababazri">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.LOCATION_GPS_PROVIDER" />
+    <uses-permission
+        android:name="android.permission.LOCATION_HARDWARE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="babbabazrii.com.bababazri.Activities.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB7tIYFdkzHflflwJOdiX8LUrPSILU_-T4" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="babbabazrii.com.bababazri.Activities.Splash"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="babbabazrii.com.bababazri.Activities.Login" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.MainActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="babbabazrii.com.bababazri.Firebase.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="babbabazrii.com.bababazri.Firebase.MyFirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Signup" />
+
+        <receiver
+            android:name="babbabazrii.com.bababazri.Common.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <!-- <receiver -->
+        <!-- android:name=".receiver.SmsReceiver" -->
+        <!-- android:permission="android.permission.BROADCAST_SMS"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.provider.Telephony.SMS_RECEIVED" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <activity
+            android:name="babbabazrii.com.bababazri.Activities.User_Profile"
+            android:label="@string/title_activity_user__profile"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+
+        <!-- <service android:name=".Service.LocationTracker" /> -->
+
+        <activity android:name="babbabazrii.com.bababazri.Activities.ForgotPassword" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Choose_Location" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.NewPassword" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.VerifiyOtp" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.After_Request_Btn" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Refer_and_Earn" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Support" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.EmergencyCall" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.About" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Notification" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Order_Confirm" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Tracking" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Demo_login" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.MyOrederList" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Verify_MobileNo" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Rating" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Change_Password" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Change_Email" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.SearchingDropLocation" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Price_Chart" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.Select_Vehicle" />
+        <activity
+            android:name="babbabazrii.com.bababazri.Fragments.Profile"
+            android:theme="@style/AppTheme" />
+        <activity android:name="babbabazrii.com.bababazri.Activities.SelectLanguage"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ffeef15904d9e98019154e0ac34d2aed500c5384" />
+    </application>
+
+</manifest>
